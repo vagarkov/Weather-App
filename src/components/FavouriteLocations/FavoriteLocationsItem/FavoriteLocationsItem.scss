@@ -1,0 +1,21 @@
+.favorite-location-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #eceef2;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+
+  .location-title-input {
+    pointer-events: unset;
+  }
+
+  .location-controls {
+    .remove-location-button {
+      margin-left: 5px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.current-location-weather {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  .location-data{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid transparent;
+    background: #eceef2;
+    border-radius: 10px;
+
+    &__coordinates {
+      font-size: 12px;
+      font-weight: normal
+    }
+  }
+
+  .bottom__block {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: #eceef2;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-gap: 10px;
+
+    .location-condition {
+      height: 50px;
+      width: 50px;
+    }
+
+    .location-weather-summary {
+      font-size: 14px;
+      line-height: 16px;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

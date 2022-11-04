@@ -1,0 +1,13 @@
+.weather-summary-item {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-gap: 5px;
+
+  &__label {
+    color: #939cb0
+  }
+
+  &__value {
+    text-align: right;
+  }
+}

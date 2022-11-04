@@ -1,0 +1,38 @@
+.this__day {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  .top__block {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: #eceef2;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .condition-icon {
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  .bottom__block {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    max-height: 65%;
+
+    white-space: nowrap;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+
+    p {
+      margin: 0;
+    }
+  }
+}

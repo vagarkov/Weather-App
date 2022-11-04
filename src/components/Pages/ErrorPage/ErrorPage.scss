@@ -1,0 +1,15 @@
+.error-page {
+  margin: 40px 40px 0;
+  min-height: calc(100vh - 40px);
+  max-width: calc(100vw - 80px);
+  display: flex;
+  justify-content: center;
+
+  .error-text {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #D34848;
+    text-align: center;
+  }
+}

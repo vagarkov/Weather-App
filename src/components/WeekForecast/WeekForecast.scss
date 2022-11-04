@@ -1,0 +1,19 @@
+.week-forecast {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: calc(10px);
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  .week-forecast {
+    grid-gap: calc(10px);
+    overflow-x: auto;
+  }
+}
+@media (max-width: 430px) {
+  .week-forecast {
+    grid-gap: calc(5px);
+    overflow-x: auto;
+  }
+}
