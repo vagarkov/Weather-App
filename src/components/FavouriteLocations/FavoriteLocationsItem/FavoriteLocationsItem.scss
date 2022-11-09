@@ -14,8 +14,19 @@
   }
 
   .location-controls {
-    .remove-location-button {
+    &__edit {
+      background: #fff;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      width: 50px;
+    }
+
+    &__remove {
       margin-left: 5px;
+      background: #fff;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      width: 50px;
     }
   }
 }

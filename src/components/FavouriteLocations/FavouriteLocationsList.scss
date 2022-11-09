@@ -1,10 +1,26 @@
-.favorite-location-list {
+.favorite-locations-list {
   margin: 0;
   background: #fff;
   border: 1px solid transparent;
   border-radius: 10px;
   overflow-y: auto;
   height: 120px;
-  list-style-type: none;
-  padding: 0 10px;
+
+  &__catalogue:has(.favorite-locations-list__title) {
+    height: 80px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &__catalogue {
+    list-style-type: none;
+    padding: 0 10px;
+  }
 }

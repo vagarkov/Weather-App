@@ -1,10 +1,10 @@
 import axios from "axios";
 import { ICoordinates } from "../store/types";
 
-const apiUrl = "/v2/forecast?";
+const apiUrl = "/api/v2/forecast?";
 
 const getWeatherByCoord = async (coordinates: ICoordinates) =>
-  await axios.get(process.env.REACT_APP_YANDEX_API_WEATHER + apiUrl, {
+  await axios.get(apiUrl, {
     headers: {
       "X-Yandex-API-Key": process.env.REACT_APP_YANDEX_API_KEY,
     },

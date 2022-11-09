@@ -61,10 +61,10 @@ const FavoriteLocationsItem = (props: IProps) => {
         </div>
       )}
       <div className="location-controls">
-        <button className="edit-location-button" onClick={enableEdit}>
+        <button className="location-controls__edit" onClick={enableEdit}>
           <EditOutlined />
         </button>
-        <button className="remove-location-button" onClick={removeLocation}>
+        <button className="location-controls__remove" onClick={removeLocation}>
           <DeleteOutlined />
         </button>
       </div>

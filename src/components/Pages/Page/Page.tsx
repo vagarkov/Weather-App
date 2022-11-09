@@ -1,7 +1,7 @@
 import React from "react";
 import "./Page.scss";
 import { Search } from "../../Search/Search";
-import { FavouriteLocationsList } from "../../FavouriteLocations/FavouriteLocationsList";
+import FavouriteLocationsList from "../../FavouriteLocations/FavouriteLocationsList";
 import { CurrentLocationWeather } from "../../CurrentLocationWeather/CurrentLocationWeather";
 import { WeekForecast } from "../../WeekForecast/WeekForecast";
 
